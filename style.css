@@ -1,0 +1,303 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Airal, sans-serif;
+}
+body{
+    background: rgb(248, 250 , 252);
+}
+header{
+    background: rgb(76, 2, 105);
+    padding: 12px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    box-shadow:0 2px 10px rgba(0,0,0..05)
+}
+.logo{
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    line-height: 1.1
+}
+.logo span{
+    color: rgb(255, 255, 255);
+    font-size: 13px
+}
+nav a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 14px;
+}
+.btn-yellow{
+    background: rgb(255, 202, 40);
+    color:rgb(13, 42, 84);
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 800;
+}
+.hero{
+    background: rgb(168, 198, 232);
+    padding: 40px 30px;
+    display: grid;
+    grid-template-columns: 1.1fr .9fr;
+    gap: 20px;
+    align-items: center;
+
+}
+.hero h1{
+    font-size: 42px;
+    color: rgb(13, 42, 84);
+    line-height: 1.1;
+}
+.hero p{
+    margin: 15px;
+    color: rgb(26, 26, 26);
+}
+.hero-btns{
+   margin: 20px;
+   display:flex;
+   gap: 12px;
+
+}
+.btn1{
+    background: rgb(255, 202, 40);
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: 2px solid rgb(13, 42, 84);
+    font-weight: 800;
+    cursor: pointer;
+}
+.btn2{
+    background: rgb(255, 202, 40);
+    border: 2px solid rgb(13, 42, 84);
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.stats{
+    margin-top: 30px;
+    display: flex;
+    gap: 25px;
+
+}
+.stat{
+    font-size: 13px;
+}
+.stat b{
+    font-size: 20px;
+    display: block;
+    color: rgb(13, 42, 84);
+}
+.hero img{
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+    height: 360px;
+}
+.white{
+    background: rgb(255, 255, 255);
+    padding: 30px;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+.mission h3, .vision h3{
+    color: rgb(13, 42, 84);
+    margin-bottom: 10px;
+    font-family: inherit;
+}
+.cards3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+.adm-card{
+    background: rgb(255, 202, 40);
+    padding: 15px;
+    border-radius: 10px;
+    display:flex;
+    gap: 10px;
+    align-items: center;
+}
+.adm-card.white-card{
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(226, 232, 240);
+
+}
+.news-header{
+    background: rgb(13, 93, 176);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px 10px 0 0 ;
+}
+.news-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:15px;
+    margin-top: -5px;
+}
+.news{
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .08);
+}
+.news img{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+.news div{
+    padding: 12px;
+}
+.tag{
+    background: rgb(255, 202, 40);
+    font-size: 11px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: 800;
+}
+footer{
+    background: rgb(13, 42, 84);
+    color: rgb(255, 202, 40);
+    padding: 15px 30px;
+    display:flex;
+    justify-content: space-between;
+    font-size: 12px;
+    text-align: center;
+}
+.container{
+    max-width: 700px;
+    margin: 30px auto;
+    background: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+
+}
+label{
+    display:block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: rgb(13, 42, 84);
+}
+input, select, textarea{
+    width: 100%;
+    padding:12px;
+    margin-top: 5px;
+    border: 1px solid rgb(204, 204, 2024);
+    border-radius: 8px;
+    font-size: 1rem;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.btn{
+    background: rgb(255, 202, 40);
+    color: rgb(13, 42, 84);
+    padding: 14px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.success{
+    display: none;
+    background: rgb(232, 245, 233);
+    color:rgb(46, 125, 50);
+    padding:15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+}
+@media(max-width:800px){
+    .hero,
+    .grid2,
+    .cards3,
+    .news-grid{grid-template-columns: 1fr;} 
+    .hero h1{font-size: 32px;}
+}
+#apply{
+    background: rgb(255, 255, 255);
+    padding: 40px 20px;
+    text-align: center;
+}
+#apply h2{
+    color: rgb(13, 42, 84);
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 8px;
+    text-align: center;
+}
+#apply p{
+    color: rgb(100, 116, 139);
+    font-size: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.menu.btn{
+    display: none;
+    font-size: 26px;
+    background: none;
+    cursor: pointer;
+    color: rgb(13, 42, 84);
+}
+@media(max-width:800px){
+    nav{
+        display: none;
+        flex-direction: column;
+        position:absolute;
+        top:60px;
+        left:0;
+        width:100%;
+        background: rgb(255, 255, 255);
+        padding: 20px;
+        box-shadow: 0 10px 20px rgba(0,0,0,.1);
+    }
+    nav.show{display: flex;}
+    .menu-btn{display: block;}
+    header{position: relative;}
+}
+section{
+    padding: 40px 20px;
+}
+section h2{
+    text-align: center;
+    color: rgb(13, 42, 84);
+    font-size: 26px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+section:nth-of-type(3) div{
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0,0.06);
+    border-left: 4px solid rgb(255, 202, 40);
+}
+section:nth-of-type(3) b{
+    color: rgb(13, 42, 84);
+    font-size: 16px;
+}
+section:nth-of-type(3) small{
+    color: rgb(100, 116, 139);
+    font-size: 13px;
+}
